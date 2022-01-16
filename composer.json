@@ -1,0 +1,30 @@
+{
+    "name": "vesperabr/wordpress-cpt",
+    "description": "Classe para criação de Custom Post Types no Wordpress",
+    "keywords": [
+        "vespera",
+        "wordpress",
+        "cpt"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/vesperabr/wordpress-cpt",
+    "authors": [
+        {
+            "name": "Ricardo Monteiro",
+            "email": "ricardo.monteiro@vespera.com.br"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "jjgrainger/posttypes": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vespera\\PostType\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
